@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="photogrid.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&display=swap" rel="stylesheet">
@@ -15,40 +14,58 @@
     <header>
         <div class= "logo"><img src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624743602/SP_Logo-3_v1h95c.jpg"></div>
         <nav class= "nav-bar">
-            <a href="">Gallery</a>
             <a href="">About</a>
             <a href="">Contact</a>
         </header>
-    <main class= "container">
+        <div class="container">
             <div class="column">
-                <img src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624743599/IMG_5341_jzfai0.jpg">
-                <img src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624839419/IMG_5360_cxwfy6.jpg">
-                <img src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624839425/IMG_5359_xe4sip.jpg">
+              <img id="img-1" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624743599/IMG_5341_jzfai0.jpg">
+              <img id="img-2" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624839419/IMG_5360_cxwfy6.jpg">
+              <img id="img-3" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624839425/IMG_5359_xe4sip.jpg">
             </div>
             <div class="column">
-                <img src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624743596/IMG_5343_hx5j5k.jpg">
-                <img src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624743594/IMG_5340_ydvmap.jpg">
-                <img src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624839419/IMG_5356_daunxc.jpg">
-                <img src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624743576/IMG_5336_g8piuj.jpg">
-  
+              <img id="img-4" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624743596/IMG_5343_hx5j5k.jpg" >
+              <img id="img-5" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624743594/IMG_5340_ydvmap.jpg">
+              <img id="img-6" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624839419/IMG_5356_daunxc.jpg">
+              <img id="img-7" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1626130560/IMG_5336_g8piuj.jpg">
+          
             </div>
             <div class="column">
-                <img src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624743599/IMG_5342_oon5r8.jpg">
-                <img src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624743598/IMG_5339_uh8efn.jpg">
-                <img src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624743594/IMG_5337_pgimoa.jpg">
-                <img src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624743574/IMG_5334_lzc4yy.jpg">
-  
+              <img id="img-8" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624743599/IMG_5342_oon5r8.jpg">
+              <img id="img-9" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624743598/IMG_5339_uh8efn.jpg">
+              <img id="img-10" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624743594/IMG_5337_pgimoa.jpg">
+              <img id="img-11" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624743574/IMG_5334_lzc4yy.jpg">
+          
             </div>
             <div class="column">
-                <img src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624743597/IMG_5344_owtrmz.jpg">
-                <img src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624839383/IMG_5357_rccs3w.jpg">
-                <img src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624839426/IMG_5358_z2nvav.jpg">
+              <img id="img-12" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624743597/IMG_5344_owtrmz.jpg">
+              <img id="img-13" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624839383/IMG_5357_rccs3w.jpg">
+              <img id="img-14" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624839426/IMG_5358_z2nvav.jpg">
+             <!-- The Modal -->
+          <div id="myModal" class="modal">
+             <!-- Close Button -->
+            <span class="close">&times;</span>
+            <!-- Modal Content-->
+            <img class="modal-content" id="img01">
+            <img class="modal-content" id="img02">
+            <img class="modal-content" id="img03">
+            <img class="modal-content" id="img04">
+            <img class="modal-content" id="img05">
+            <img class="modal-content" id="img06">
+            <img class="modal-content" id="img07">
+            <img class="modal-content" id="img08">
+            <img class="modal-content" id="img09">
+            <img class="modal-content" id="img10">
+            <img class="modal-content" id="img11">
+            <img class="modal-content" id="img12">
+            <img class="modal-content" id="img13">
+            <img class="modal-content" id="img14">
             </div>
-    </main>
+          </div>
     <section>
-
+      
     </section>
-    
-   
+          <script src="photogrid.js"></script>
+
 </body>
 </html>
