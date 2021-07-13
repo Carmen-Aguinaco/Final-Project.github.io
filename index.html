@@ -14,54 +14,63 @@
     <header>
         <div class= "logo"><img src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624743602/SP_Logo-3_v1h95c.jpg"></div>
         <nav class= "nav-bar">
-            <a href="">About</a>
-            <a href="">Contact</a>
+           <button class="about-me-button" data-modal-target="#about-me-modal">About Me</button>
+              <div class="about-me-modal" id="modal">
+                  <div class="about-me-modal-content"><p><img class="headshot" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624743577/IMG_5333_z5dctg.jpg" alt="headshot" style="width:200px;height:300x;"> 
+            Samantha Perez is a Houston, TX based photographer who specializes in portrait photography. Some of her favorite things to shoot are headshots, graduations, fashion shoots or live action sports. She loves capturing the beauty of all subjects. When she isn't taking photographs she is enjoying brunch with her friends, playing with her Sphynx cat Humphrey, working out, or spending time with her family. She has 5 years of photography under her belt and wishes to continue capturing special moments for a long time.</p></div>
+                  <button data-close-button class="close-button">&times;</button>
+                </div>
+              </div>
+              <div id="overlay"></div>
+                      </div>
+            <a href="ContactMe.html" class="contact-me">Contact</a>
+        </nav>             
         </header>
-        <div class="container">
-            <div class="column">
-              <img id="img-1" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624743599/IMG_5341_jzfai0.jpg">
-              <img id="img-2" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624839419/IMG_5360_cxwfy6.jpg">
-              <img id="img-3" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624839425/IMG_5359_xe4sip.jpg">
-            </div>
-            <div class="column">
-              <img id="img-4" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624743596/IMG_5343_hx5j5k.jpg" >
-              <img id="img-5" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624743594/IMG_5340_ydvmap.jpg">
-              <img id="img-6" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624839419/IMG_5356_daunxc.jpg">
-              <img id="img-7" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1626130560/IMG_5336_g8piuj.jpg">
-          
-            </div>
-            <div class="column">
-              <img id="img-8" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624743599/IMG_5342_oon5r8.jpg">
-              <img id="img-9" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624743598/IMG_5339_uh8efn.jpg">
-              <img id="img-10" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624743594/IMG_5337_pgimoa.jpg">
-              <img id="img-11" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624743574/IMG_5334_lzc4yy.jpg">
-          
-            </div>
-            <div class="column">
-              <img id="img-12" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624743597/IMG_5344_owtrmz.jpg">
-              <img id="img-13" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624839383/IMG_5357_rccs3w.jpg">
-              <img id="img-14" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624839426/IMG_5358_z2nvav.jpg">
-             <!-- The Modal -->
-          <div id="myModal" class="modal">
-             <!-- Close Button -->
-            <span class="close">&times;</span>
-            <!-- Modal Content-->
-            <img class="modal-content" id="img01">
-            <img class="modal-content" id="img02">
-            <img class="modal-content" id="img03">
-            <img class="modal-content" id="img04">
-            <img class="modal-content" id="img05">
-            <img class="modal-content" id="img06">
-            <img class="modal-content" id="img07">
-            <img class="modal-content" id="img08">
-            <img class="modal-content" id="img09">
-            <img class="modal-content" id="img10">
-            <img class="modal-content" id="img11">
-            <img class="modal-content" id="img12">
-            <img class="modal-content" id="img13">
-            <img class="modal-content" id="img14">
-            </div>
+        <main class="container">
+          <div class="column">
+            <img id="img-1" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624743599/IMG_5341_jzfai0.jpg">
+            <img id="img-2" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624839419/IMG_5360_cxwfy6.jpg">
+            <img id="img-3" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624839425/IMG_5359_xe4sip.jpg">
           </div>
+          <div class="column">
+            <img id="img-4" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624743596/IMG_5343_hx5j5k.jpg" >
+            <img id="img-5" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624743594/IMG_5340_ydvmap.jpg">
+            <img id="img-6" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624839419/IMG_5356_daunxc.jpg">
+            <img id="img-7" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624743576/IMG_5336_g8piuj.jpg">
+        
+          </div>
+          <div class="column">
+            <img id="img-8" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624743599/IMG_5342_oon5r8.jpg">
+            <img id="img-9" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624743598/IMG_5339_uh8efn.jpg">
+            <img id="img-10" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624743594/IMG_5337_pgimoa.jpg">
+            <img id="img-11" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624743574/IMG_5334_lzc4yy.jpg">
+        
+          </div>
+          <main class="column">
+            <img id="img-12" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624743597/IMG_5344_owtrmz.jpg">
+            <img id="img-13" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624839383/IMG_5357_rccs3w.jpg">
+            <img id="img-14" src="https://res.cloudinary.com/dnazpafbl/image/upload/v1624839426/IMG_5358_z2nvav.jpg">
+           <!-- The Modal -->
+        <div id="myModal" class="my-modal">
+           <!-- The Close Button -->
+          <span class="close">&times;</span>
+          <!-- Modal Content (The Image) -->
+          <img class="main-modal-content" id="img01">
+          <img class="main-modal-content" id="img02">
+          <img class="main-modal-content" id="img03">
+          <img class="main-modal-content" id="img04">
+          <img class="main-modal-content" id="img05">
+          <img class="main-modal-content" id="img06">
+          <img class="main-modal-content" id="img07">
+          <img class="main-modal-content" id="img08">
+          <img class="main-modal-content" id="img09">
+          <img class="main-modal-content" id="img10">
+          <img class="main-modal-content" id="img11">
+          <img class="main-modal-content" id="img12">
+          <img class="main-modal-content" id="img13">
+          <img class="main-modal-content" id="img14">
+          </div>
+        </main>
     <section>
       
     </section>
