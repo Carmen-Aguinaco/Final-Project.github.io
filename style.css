@@ -2,6 +2,13 @@ header {
     display: flex;
     /* border: 1px solid red; */
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 500px) and (max-width: 850px) {
+  header{
+    max-width: 100%;
+  }
 }
 
 .logo {
@@ -13,14 +20,13 @@ header {
 }
 
 .nav-bar {
-    display: flex;
-    /* border: 1px solid black; */
-    width: 40%;
-    margin: 0 25% 0 0;
-    padding: 75px 0 0 0;
-    justify-content: space-around;
-    align-items: center;
-    font-family: 'IM Fell DW Pica', serif;
+  display: flex;
+  /* border: 1px solid black; */
+  width: 30%;
+  margin: auto;
+  padding-right: 350px;
+  justify-content: space-around;
+  font-family: 'IM Fell DW Pica', serif;
 
 
 }
@@ -34,12 +40,15 @@ a {
 
 /* Main content css */
 
+
 .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 /*     border: 1px solid black; */
-  margin: 50px;
+  padding: 50px;
+  background-color: #f8ebe5;
+ ;
 }
 
 /* Create four equal columns that sits next to each other */
@@ -153,6 +162,8 @@ cursor: pointer;
   from {transform:scale(0)} 
   to {transform:scale(1)}
   }
+
+  
   
   /* The Close Button */
   .close {
@@ -202,13 +213,6 @@ cursor: pointer;
     transform: translate(-50%, -50%) scale(1);
   }
   
-  /* .modal-text {
-    padding: 10px 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-  } */
   
   .headshot {
     float: left;
@@ -283,10 +287,6 @@ cursor: pointer;
     color: white;
   }
   
-
-  /* Contact Me Modal */
-
-
   .contact-me {
     background-color: white;
     border: none;
@@ -308,28 +308,33 @@ cursor: pointer;
     color: white;
   }
   
+  /* footer  */
+
+  .footer-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: white;
+    
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+    
+}
+
+.copyright {
+  color: #B08968;
+  font-family: 'IM Fell DW Pica', serif;
+  font-size: 18px;
+  width: 200px;
+  text-align: right;
+  margin-left: auto;
+  padding: 5px;
+}
+
+
   
-  /* Modal Content */
-  .contact-modal-content h1 {
-    background-color: #fefefe;
-    font-family: 'IM Fell DW Pica', serif;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-  }
-  
-  /* The Close Button */
-  .close-button {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close-button:hover,
-  .close-button:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-  }
