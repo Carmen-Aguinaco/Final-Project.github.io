@@ -1,7 +1,7 @@
-// Get the modal
+// Get the modal, This is the main image Modal JS
 var mainModal = document.getElementById("myModal");
 
-// Get the image and insert it inside the modal - use its "alt" text as a caption
+// Get the image and insert it inside the modal
 var img = document.getElementById("img-1");
 var modalImg = document.getElementById("img01");
 img.onclick = function(){
@@ -159,7 +159,5 @@ function closeModal(modalOne) {
   modalOne.classList.remove('active')
   overlay.classList.remove('active')
 }
-
-
 
 
