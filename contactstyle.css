@@ -31,6 +31,11 @@
     color: #7F5539;
   }
 
+  p {
+    font-size: 20px;
+    
+  }
+
   h1 {
     font-size: 50px;
   }
@@ -39,10 +44,6 @@
     font-size: 30px;
   }
 
-  p {
-    font-size: 20px;
-  }
-  
   
   .contact-info {
     /* border: 5px solid rgb(160, 106, 70); */
@@ -51,6 +52,9 @@
     margin-top: 40px;
     padding: 50px;    
   }
+
+
+  
   
   header {
     display: flex;
